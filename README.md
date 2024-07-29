@@ -1,5 +1,7 @@
 A tool that creates fake processes to make AntiVM code exit malware because it thinks its a VM
 
+Ignore the Intercom.cs file since i tried to make this project more complicated than it is when it was in use
+
 > **Copyright**
 > 
 > This software is copyright (c) 2024 FelixFoxxy.
