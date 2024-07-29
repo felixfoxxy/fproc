@@ -93,8 +93,6 @@ namespace fproc
                     string name = FakeProcesses.Keys.ElementAt(i);
                     Process proc = FakeProcesses.Values.ElementAt(i);
                     Console.SetCursorPosition(0, FakeProcesses.Count - i);
-                    //Console.WriteLine(new string(' ', mpnl));
-                    //Console.SetCursorPosition(0, FakeProcesses.Count - i);
                     if (proc == null || proc.HasExited || !proc.Responding)
                     {
                         Utils.PrintColor("[-] " + name, true, ConsoleColor.Red);
